@@ -9,3 +9,4 @@ Set<String> products = PVGroup.getProductTypeByPageId(pageId);<br />
 贴一张流程图，更有利于理解：<br /> 
 ![image](https://github.com/hupujrs2017/MapReducePvUv/blob/master/src/main/resources/pvuv.png)
 
+此外，补充一点，此计算过程不能使用combiner，想想为什么？
